@@ -39,6 +39,7 @@ var kittens4
 function appendKitten(name) {
   name = 'Broom'
   kittens1 = kittens.concat(name)
+  return kittens1
 }
 
 function prependKitten(name) {
