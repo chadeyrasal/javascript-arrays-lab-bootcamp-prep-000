@@ -50,6 +50,7 @@ function prependKitten(name) {
 
 function removeLastKitten() {
   kittens3 = kittens.slice(3)
+  return kittens3
 }
 
 function removeFirstKitten() {
